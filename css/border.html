@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .title {
+      color: #333;
+      line-height: 2;
+    }
+
+    .title span {
+      background: linear-gradient(to right, #ec695c, #61c454) no-repeat right bottom;
+      background-size: 0px 3px;
+      transition: background-size 1300ms;
+    }
+
+    .title span:hover {
+      background-position-x: left;
+      background-size: 100% 3px;
+    }
+  </style>
+</head>
+<body>
+  <h2 class="title">
+    <span>在本节中，我们将介绍如何在本地搭建 Vue 单页应用。创建的项目将使用基于 Vite 的构建设置，并允许我们使用 Vue 的单文件组件 (SFC)。</span>
+  </h2>
+</body>
+</html>
